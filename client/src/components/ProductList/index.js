@@ -15,7 +15,7 @@ function ProductList() {
   }))
 
   const dispatch = useDispatch()
-
+  console.log(state)
   const { currentCategory } = state;
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
